@@ -1,10 +1,11 @@
 {
-  "name": "counter-app",
+  "name": "gra",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "proxy": "http://localhost:8080",
-  "homepage": "https://whydak13.github.io",
+  "homepage": "https://whydak13.github.io/Gra-front/",
   "dependencies": {
+    "-": "^0.0.1",
     "@progress/kendo-data-query": "^1.5.6",
     "@progress/kendo-drawing": "^1.16.3",
     "@progress/kendo-licensing": "^1.2.2",
@@ -38,15 +39,17 @@
     "react-scripts": "^5.0.1",
     "react-select": "^5.3.2",
     "save": "^2.5.0",
+    "save-dev": "^0.0.1-security",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "set PORT=3000 && react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
+
   },
   "eslintConfig": {
     "extends": [

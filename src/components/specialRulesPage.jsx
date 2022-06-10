@@ -136,21 +136,7 @@ function SpecialRulePage() {
           </label>
           <label>
             {" "}
-            Koszt "+"
-            <input
-              type="number"
-              name="specialRuleCostAdd"
-              required="required"
-              min="-50"
-              max="50"
-              step="0.05"
-              style={{ margin: "10px" }}
-              onChange={handleAddFormChange}
-            />
-          </label>
-          <label>
-            {" "}
-            Koszt "x"
+            Koszt
             <input
               type="number"
               name="specialRuleCostMultiply"
@@ -162,6 +148,21 @@ function SpecialRulePage() {
               onChange={handleAddFormChange}
             />
           </label>
+          <label>
+            {" "}
+            *X +
+            <input
+              type="number"
+              name="specialRuleCostAdd"
+              required="required"
+              min="-50"
+              max="50"
+              step="0.05"
+              style={{ margin: "10px" }}
+              onChange={handleAddFormChange}
+            />
+          </label>
+
           <label>
             {" "}
             Opis
@@ -226,21 +227,7 @@ function SpecialRulePage() {
           </label>
           <label>
             {" "}
-            Koszt "+"
-            <input
-              type="number"
-              name="specialRuleCostAdd"
-              required="required"
-              min="-50"
-              max="50"
-              step="0.05"
-              style={{ margin: "10px" }}
-              onChange={handleAddFormChange}
-            />
-          </label>
-          <label>
-            {" "}
-            Koszt "x"
+            Koszt
             <input
               type="number"
               name="specialRuleCostMultiply"
@@ -248,6 +235,20 @@ function SpecialRulePage() {
               min="0.5"
               max="2"
               step="0.01"
+              style={{ margin: "10px" }}
+              onChange={handleAddFormChange}
+            />
+          </label>
+          <label>
+            {" "}
+            *X +
+            <input
+              type="number"
+              name="specialRuleCostAdd"
+              required="required"
+              min="-50"
+              max="50"
+              step="0.05"
               style={{ margin: "10px" }}
               onChange={handleAddFormChange}
             />
