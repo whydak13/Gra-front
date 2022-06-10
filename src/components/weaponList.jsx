@@ -34,10 +34,10 @@ const columns = [
   {dataField: 'id', text: 'Id', sort: true},
   {dataField: 'name', text: 'Nazwa', sort: true, filter: textFilter({placeholder: 'Podaj nazwę'})},
   {dataField: 'reach', text: 'Zasięg', sort: true, 
-  filter: textFilter()},
-  {dataField: 'agility', text: 'Celność', sort: true,filter: textFilter()},
-  {dataField: 'impact', text: 'Impet', sort: true},
-  {dataField: 'cost', text: 'Koszt', sort: true},
+  filter: textFilter({placeholder: 'Podaj zasięg'})},
+  {dataField: 'agility', text: 'Celność', sort: true,filter: textFilter({placeholder: 'Podaj celność'})},
+  {dataField: 'impact', text: 'Impet', sort: true, filter: textFilter({placeholder: 'Podaj impet'})},
+  {dataField: 'cost', text: 'Koszt', sort: true, filter: textFilter({placeholder: 'Podaj koszt'})}, 
   {dataField: 'description', text: 'Opis'}
 
 
