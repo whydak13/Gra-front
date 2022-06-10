@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.860f02db.css",
-    "main.js": "/static/js/main.c67c9186.js",
-    "static/js/787.5863b875.chunk.js": "/static/js/787.5863b875.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.860f02db.css.map": "/static/css/main.860f02db.css.map",
-    "main.c67c9186.js.map": "/static/js/main.c67c9186.js.map",
-    "787.5863b875.chunk.js.map": "/static/js/787.5863b875.chunk.js.map"
+    "main.css": "/Gra-front/static/css/main.860f02db.css",
+    "main.js": "/Gra-front/static/js/main.dd7b00b8.js",
+    "static/js/787.5863b875.chunk.js": "/Gra-front/static/js/787.5863b875.chunk.js",
+    "static/media/logo.svg": "/Gra-front/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Gra-front/index.html",
+    "main.860f02db.css.map": "/Gra-front/static/css/main.860f02db.css.map",
+    "main.dd7b00b8.js.map": "/Gra-front/static/js/main.dd7b00b8.js.map",
+    "787.5863b875.chunk.js.map": "/Gra-front/static/js/787.5863b875.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.860f02db.css",
-    "static/js/main.c67c9186.js"
+    "static/js/main.dd7b00b8.js"
   ]
 }
